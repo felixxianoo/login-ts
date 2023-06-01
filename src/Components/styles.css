@@ -1,0 +1,71 @@
+.wrapper{
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  height: 55%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+  background-color: rgb(233, 232, 232);
+  box-shadow: 15px 15px 15px slategray;
+  padding: 1rem;
+}
+.form{
+  display: grid;
+  width: 75%;
+  gap: .5rem;
+}
+.title{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #757575;
+}
+#name{
+  width: 100%;
+  height: 2rem;
+  border: none;
+  border-bottom: 1px solid #757575;
+  outline: none;
+  background-color: transparent;
+}
+#email{
+  width: 100%;
+  height: 2rem;
+  border: none;
+  border-bottom: 1px solid #757575;
+  outline: none;
+  background-color: transparent;
+}
+#password{
+  width: 100%;
+  height: 2rem;
+  border: none;
+  border-bottom: 1px solid #757575;
+  outline: none;
+  background-color: transparent;
+}
+.submit{
+  height: 2.5rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: cadetblue;
+  color: white;
+}
+.submit:hover{
+  background-color: rgb(104, 198, 201);
+  transform: all .3s;
+}
+a{
+  color: cadetblue;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(104, 198, 201);
+}
